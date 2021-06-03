@@ -1,0 +1,5 @@
+//flower
+scale is (200, 200);
+FOR T FROM 0 TO 2 * pi STEP PI/1000 DRAW (sin(6 * t) * cos(t), sin(6 * t) * sin(t)) of blue;
+rot is pi / 12;
+FOR T FROM 0 TO 2 * pi STEP PI/1000 DRAW (sin(6 * t) * cos(t), sin(6 * t) * sin(t)) of blue;
